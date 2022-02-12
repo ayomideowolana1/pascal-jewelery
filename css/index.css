@@ -1,5 +1,5 @@
 div{
-    border:1px solid white;
+    border:1px solid black;
 }
 
 .product-sample{
@@ -9,5 +9,8 @@ div{
 }
 
 .nav-section{
+    padding :20px
+}
+.footer-section{
     padding :20px
 }
