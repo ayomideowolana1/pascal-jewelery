@@ -4,4 +4,10 @@ div{
 
 .product-sample{
     height: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.nav-section{
+    padding :10px
 }
