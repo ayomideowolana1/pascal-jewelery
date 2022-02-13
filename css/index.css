@@ -1,5 +1,5 @@
-div{
-    border:1px solid black;
+div.bordered{
+    border:1px solid;
 }
 
 .product-sample{
@@ -13,4 +13,17 @@ div{
 }
 .footer-section{
     padding :20px
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    padding: 10px 20px;
+}
+
+a.bordered{
+    border: 1px solid;
+
 }
