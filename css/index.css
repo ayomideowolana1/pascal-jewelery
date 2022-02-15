@@ -45,7 +45,6 @@ label {
   width: 100%;
 }
 
-h3,
 p {
   width: 100%;
   text-align: center;
@@ -62,4 +61,11 @@ p {
 .white{
     background-color: #fff;
 
+}
+
+.pink{
+  background-color: pink;
+}
+.wine{
+  background-color: rgb(68, 13, 13);
 }
