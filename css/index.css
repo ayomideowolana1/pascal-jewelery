@@ -87,23 +87,55 @@ p {
   align-items: center;
 }
 
-
-.form{
+.form {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-.form input,button{
-  margin: 0px
+.form input,
+button {
+  margin: 0px;
 }
-.form button{
+.form button {
   border: 1px solid;
 }
 
-.social-icon{
+.social-icon {
   padding: 20px;
   background-color: #424242;
   border-radius: 50%;
+}
+
+.post {
+  /* border: 1px solid; */
+  padding: 20px;
+}
+
+
+.posts {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.post-image {
+  height: 400px;
+  background-color: #f2f2f2;
+}
+
+.post-text {
+  line-height: 1.5;
+  padding: 30px;
+}
+
+
+.home-text p{
+  text-align: left;
+}
+.home-text a{
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 30px;
+  margin-right: 20px;
 }
