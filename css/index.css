@@ -22,12 +22,18 @@ p {
   line-height: 1.5;
 }
 
-a {
-  /* padding: 10px 20px; */
+h3 {
+  text-align: center;
 }
 
-a.bordered {
-  border: 1px solid;
+a {
+  padding: 10px 20px;
+  /* border: 1px solid; */
+  color: black;
+}
+a.wine {
+  background-color: rgb(68, 13, 13);
+  color: white;
 }
 
 input {
@@ -58,14 +64,46 @@ p {
   background-color: #424242;
 }
 
-.white{
-    background-color: #fff;
-
+.white {
+  background-color: #fff;
 }
 
-.pink{
-  background-color: pink;
+.pink {
+  background-color: rgb(243, 217, 222);
 }
-.wine{
+.wine {
   background-color: rgb(68, 13, 13);
+  color: white;
+  border: 1px solid white;
+}
+
+.cta-button {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.form input,button{
+  margin: 0px
+}
+.form button{
+  border: 1px solid;
+}
+
+.social-icon{
+  padding: 20px;
+  background-color: #424242;
+  border-radius: 50%;
 }
