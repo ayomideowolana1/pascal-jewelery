@@ -1,5 +1,5 @@
 div.bordered {
-  border: 1px solid;
+  border: 1px solid black;
 }
 /* div{
     border:1px solid;
@@ -8,12 +8,42 @@ div.bordered {
 .product-sample {
   height: 300px;
   background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+.product-sample >div{
+  border: 1px solid ;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.product-sample >div a{
+  
+}
+
+.product-sample >div>div{
+  border: 1px solid;
+  height: 150px;
+  width: 150px;
+  background-color: white;
 }
 
 .nav-section {
   padding: 20px;
 }
+
+.nav-link{
+  border: 1px solid;
+  margin: 0px 5px;
+  color: #424242;
+  box-shadow: 2px 2px 2px #424242;
+}
+
 .footer-section {
   padding: 20px;
 }
