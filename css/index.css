@@ -7,7 +7,7 @@ a {
 }
 
 .product-sample {
-  height: 300px;
+  /* height: 300px; */
   background-color: white;
   /* border: 1px solid black; */
   padding: 10px;
@@ -28,7 +28,7 @@ a {
   border: 1px solid;
   height: 150px;
   width: 150px;
-  background-color: white;
+  background-image: url(../images/picture\ 1.png);
 }
 
 .nav-section {
@@ -172,4 +172,12 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#cartSection{
+  display: none;
+}
+
+.image{
+  background-color: red;
 }
