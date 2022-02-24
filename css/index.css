@@ -1,19 +1,47 @@
 div.bordered {
-  border: 1px solid;
+  border: 1px solid black;
 }
-/* div{
-    border:1px solid;
-} */
+
+a {
+  text-decoration: none;
+}
 
 .product-sample {
   height: 300px;
   background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+.product-sample >div{
+  border: 1px solid ;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.product-sample >div>div{
+  border: 1px solid;
+  height: 150px;
+  width: 150px;
+  background-color: white;
 }
 
 .nav-section {
   padding: 20px;
 }
+
+.nav-link{
+  border: 1px solid;
+  margin: 0px 5px;
+  color: #424242;
+  box-shadow: 2px 2px 2px #424242;
+}
+
 .footer-section {
   padding: 20px;
 }
@@ -22,12 +50,18 @@ p {
   line-height: 1.5;
 }
 
-a {
-  /* padding: 10px 20px; */
+h3 {
+  text-align: center;
 }
 
-a.bordered {
-  border: 1px solid;
+a {
+  padding: 10px 20px;
+  /* border: 1px solid; */
+  color: black;
+}
+a.wine {
+  background-color: rgb(68, 13, 13);
+  color: white;
 }
 
 input {
@@ -45,7 +79,6 @@ label {
   width: 100%;
 }
 
-h3,
 p {
   width: 100%;
   text-align: center;
@@ -59,7 +92,84 @@ p {
   background-color: #424242;
 }
 
-.white{
-    background-color: #fff;
+.white {
+  background-color: #fff;
+}
 
+.pink {
+  background-color: rgb(243, 217, 222);
+}
+.wine {
+  background-color: rgb(68, 13, 13);
+  color: white;
+  border: 1px solid white;
+}
+
+.cta-button {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.form input,
+button {
+  margin: 0px;
+}
+.form button {
+  border: 1px solid;
+}
+
+.social-icon {
+  padding: 20px;
+  background-color: #424242;
+  border-radius: 50%;
+}
+
+.post {
+  /* border: 1px solid; */
+  padding: 20px;
+}
+
+
+.posts {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.post-image {
+  height: 400px;
+  background-color: #f2f2f2;
+}
+
+.post-text {
+  line-height: 1.5;
+  padding: 30px;
+}
+
+
+.home-text p{
+  text-align: left;
+}
+.home-text a{
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
