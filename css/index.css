@@ -1,5 +1,5 @@
 div.bordered {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 .product-sample >div{
-  border: 1px solid ;
+  /* border: 1px solid ; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -25,14 +25,9 @@ a {
 }
 
 .product-sample >div>div{
-  border: 1px solid;
+  /* border: 1px solid; */
   height: 150px;
   width: 150px;
-
-}
-
-
-
 }
 
 .nav-section {
@@ -40,7 +35,7 @@ a {
 }
 
 .nav-link{
-  border: 1px solid;
+  /* border: 1px solid; */
   margin: 0px 5px;
   color: #424242;
   box-shadow: 2px 2px 2px #424242;
