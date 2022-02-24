@@ -28,7 +28,6 @@ a {
   border: 1px solid;
   height: 150px;
   width: 150px;
-  background-image: url(../images/picture\ 1.png);
 }
 
 .nav-section {
@@ -178,6 +177,3 @@ button {
   display: none;
 }
 
-.image{
-  background-color: red;
-}
