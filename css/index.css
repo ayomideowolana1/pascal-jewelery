@@ -28,6 +28,11 @@ a {
   border: 1px solid;
   height: 150px;
   width: 150px;
+
+}
+
+
+
 }
 
 .nav-section {
@@ -173,3 +178,6 @@ button {
   align-items: center;
 }
 
+.cart-section{
+  display: none;
+}
