@@ -59,15 +59,6 @@
           <div class="container">
 
             <div class="row nav-section">
-              <div class="col-6">
-                <p style="text-align: left"><-</p>
-              </div>
-              <div class="col-6">
-                <p style="text-align: right">cart icon</p>
-              </div>
-            </div>
-
-            <div class="row nav-section">
               <div
                 class="col-12"
                 style="
@@ -123,7 +114,7 @@
                 <div class="row">
                   <div class="product-sample col-6 col-md-3" ng-repeat="x in cart">
                     <div class="pink" style="padding: 10px;">
-                      <div class="image" ></div>
+                       <div class="image" style="background-image: url('{{x.url}}'); background-size: cover;"></div>
                   <p>${{x.cost}}</p>
                       <p>{{x.name}}</p>
                       <button class="wine" ng-click ="removeFromCart(x.index)" >Remove from cart</button>

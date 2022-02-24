@@ -173,3 +173,6 @@ button {
   align-items: center;
 }
 
+.cart-section{
+  display: none;
+}
