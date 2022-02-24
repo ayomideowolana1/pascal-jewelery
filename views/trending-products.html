@@ -14,6 +14,11 @@
     <script src="../js/angularjs.js"></script>
     <script src="../js/app.js"></script>
     <div class="container-fluid">
+
+      <div class="row bordered">
+        <div
+          id="hero borde<<<<<<< blog-pagered col-12"
+
       <div
         class="row"
         style="padding: 10px 20px; max-width: 1200px; margin: auto"
@@ -34,11 +39,19 @@
       <div class="row ">
         <div
           id="hero  col-12"
+
           style="
             height: 50vh;
             display: flex;
             justify-content: center;
             align-items: center;
+
+          "
+        >
+          <h3 style="max-width: 600px">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+            distinctio dolorem fugiat.
+
             background-image: url(../images/trending-image/hero.jpeg);
             background-size: cover;
             color: white;
@@ -46,13 +59,23 @@
         >
           <h3 style="max-width: 600px; font-size: 60px; text-shadow: 0px 0px 3px #424242;">
             Exquisite Jewelry at The Best price
+
           </h3>
         </div>
       </div>
       <div class="row">
         <div id="nav" >
           <div class="container">
-            
+
+            <div class="row nav-section">
+              <div class="col-6">
+                <p style="text-align: left"><-</p>
+              </div>
+              <div class="col-6">
+                <p style="text-align: right">cart icon</p>
+              </div>
+            </div>
+
             <div class="row nav-section">
               <div
                 class="col-12"
@@ -68,6 +91,25 @@
               </div>
             </div>
             <div class="row nav-section">
+
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Necklace</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Rings</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Anklet</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Body chain</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Other</a>
+                </li>
+              </ul>
+
              <div class="container">
                <div class="row ">
                  <div class="col-6 m-auto " style="display: flex; justify-content: center; gap: 20px;">
@@ -76,6 +118,7 @@
                  </div>
                </div>
              </div>
+
             </div>
           </div>
         </div>
@@ -83,6 +126,16 @@
       <div class="row">
         <div id="products" style="border: 1px solid white">
           <div class="container" style="max-width: 1200">
+
+            <div class="row">
+              <div class="product-sample col-6 col-md-3" ng-repeat="x in products">
+                <div class="pink" >
+                  <div class="image"></div>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <button class="wine" ng-click ="addToCart(111)" >Add to cart</button>
+                </div>
+      
+
             <div class="row" >
              <div class="container" id="productSection">
                <div class="row">
@@ -113,6 +166,7 @@
         </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -153,4 +207,7 @@
       </div>
     </div>
   </body>
+
 </html>
+
+
