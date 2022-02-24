@@ -1,9 +1,10 @@
 div.bordered {
   border: 1px solid black;
 }
-/* div{
-    border:1px solid;
-} */
+
+* a {
+  text-decoration: none;
+}
 
 .product-sample {
   height: 300px;
@@ -20,9 +21,6 @@ div.bordered {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  
-}
-.product-sample >div a{
   
 }
 
@@ -168,4 +166,10 @@ button {
   padding: 10px 35px;
   border-radius: 30px;
   margin-right: 20px;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

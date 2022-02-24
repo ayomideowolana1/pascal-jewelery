@@ -8,151 +8,93 @@
     <link rel="stylesheet" href="../css/index.css" />
     <title>Pascal's Jewelry</title>
   </head>
-  <body>
-    <!-- Wireframe instructions update-->
-    <!-- 
-      inside the footer create a div.continer
-      then inside the continer create two div.row.footer-section 
-    -->
+  <body ng-app="myApp">
+    <div ng-controller="storeCtrl">
+      
+    <script src="../js/angularjs.js"></script>
+    <script src="../js/app.js"></script>
     <div class="container-fluid">
       <div class="row bordered">
-        <div id="hero bordered col-12" style="height: 50vh;  display: flex; justify-content: center; align-items: center;">
-          <h3 style="max-width: 600px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque distinctio dolorem fugiat.</h3>
+        <div
+          id="hero bordered col-12"
+          style="
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <h3 style="max-width: 600px">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+            distinctio dolorem fugiat.
+          </h3>
         </div>
       </div>
       <div class="row">
-        <div id="nav" style="  ">
-        <div class="container">
-          <div class="row nav-section">
-            <div class="col-6">
-              <p style="text-align: left;"><-</p>
-            </div>
-            <div class="col-6">
-              <p style="text-align: right;">cart icon</p>
-            </div>
-          </div>
-          <div class="row nav-section">
-            <div class="col-12" style="display: flex; justify-content: center; align-items: center;">
-              <span class="wine" style="padding: 20px;">Trending Products</span>
-            </div>
-          </div>
-          <div class="row nav-section">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Necklace</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Rings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Anklet</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Body chain</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Other</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div id="products" style="border: 1px solid white;">
-            <div class="container" style="max-width: 1200;">
-              <div class="row">
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
-                <div class="product-sample col-6 col-md-3">
-                  <div class="pink">
-                    <div class="image"></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="" class="wine">link</a>
-                  </div>
-                </div>
+        <div id="nav" >
+          <div class="container">
+            <div class="row nav-section">
+              <div class="col-6">
+                <p style="text-align: left"><-</p>
+              </div>
+              <div class="col-6">
+                <p style="text-align: right">cart icon</p>
               </div>
             </div>
+            <div class="row nav-section">
+              <div
+                class="col-12"
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <span class="wine" style="padding: 20px"
+                  >Trending Products</span
+                >
+              </div>
+            </div>
+            <div class="row nav-section">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Necklace</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Rings</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Anklet</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Body chain</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Other</a>
+                </li>
+              </ul>
+            </div>
           </div>
+        </div>
       </div>
-      <div class="row footer wine" style="margin-top: 100px;">
-        <div class="container ">
-
+      <div class="row">
+        <div id="products" style="border: 1px solid white">
+          <div class="container" style="max-width: 1200">
+            <div class="row">
+              <div class="product-sample col-6 col-md-3" ng-repeat="x in products">
+                <div class="pink" >
+                  <div class="image"></div>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <button class="wine" ng-click ="addToCart(111)" >Add to cart</button>
+                </div>
+      
+    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer wine" style="margin-top: 100px">
+        <div class="container">
           <div class="row bordered" style="height: 40vh"></div>
           <div class="row" style="padding: 10px">
             <div class="row m-auto">
@@ -188,3 +130,4 @@
     </div>
   </body>
 </html>
+
